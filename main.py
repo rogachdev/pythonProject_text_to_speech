@@ -10,5 +10,7 @@ speech = gTTS(text=file, lang='pt-br', slow=False)
 # cria uma versáo .mp3 do arquivo txt e salva na raiz do projeto
 speech.save("textVoice.mp3")
 
-#abre o arquivo criado na estensão .mp3
+# abre o arquivo criado na estensão .mp3
 os.system("textVoice.mp3")
+
+# --------------- #
